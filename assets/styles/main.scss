@@ -1,0 +1,35 @@
+@import "common/variables";
+
+// Import npm dependencies
+@import "~bootstrap/scss/bootstrap";
+@import "~animate-sass/animate";
+@import "~fractures/dist/fractures.prefixed.min.css";
+
+// Import Slick
+@import "~slick-carousel/slick/slick.scss";
+@import "~slick-carousel/slick/slick-theme.scss";
+
+// font-awesome で使うディレクトリの場所を指定
+$fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
+// font-awesome
+@import "~@fortawesome/fontawesome-free/scss/brands.scss";
+@import "~@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "~@fortawesome/fontawesome-free/scss/regular.scss";
+@import "~@fortawesome/fontawesome-free/scss/solid.scss";
+// @import '~@fortawesome/fontawesome-free/scss/v4-shims.scss';
+
+@import "underscores/woocommerce";
+@import "underscores/style";
+
+@import "common/global";
+@import "components/buttons";
+@import "components/comments";
+@import "components/forms";
+@import "components/grid";
+@import "components/wp-classes";
+@import "layouts/header";
+@import "layouts/sidebar";
+@import "layouts/footer";
+@import "layouts/pages";
+@import "layouts/posts";
+@import "layouts/tinymce";
